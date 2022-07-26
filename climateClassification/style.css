@@ -1,0 +1,57 @@
+#화면그리드 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}#인터페이스그리드 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding:5px;
+    border-right: 3px solid black;
+} #정보창그리드 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} #지도 {
+    padding:10px;
+}
+
+.창분활 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} .인터페이스분활 {
+    border-bottom: 3px solid black;
+} .버튼 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    margin-right: -8px;
+    display: inline-block;
+}
+
+#기후선택{background-color:Green; color:black;}
+#단순기후선택 {background-color:Lime; color:black;}
+#편집선택 {background-color:Saddlebrown; color:black;}
+#흰색선택 {background-color:white; color:black;}
+
+#에디터모드땅선택 {background-color:Saddlebrown; color:black;}
+#에디터모드바다선택 {background-color:Royalblue; color:black;}
+
+#자전모드 {background-color:Gainsboro; color:black;}
+#경계선표시모드 {background-color:Gainsboro; color:black;}
+#바람표시모드 {background-color:Gainsboro; color:black;}
+#기온모드 {background-color:red; color:black;}
+#강수모드 {background-color:blue; color:black;}
+/* 기단표시모드예정 */
+
+#분기1선택 {background-color:Gainsboro; color:black;}
+#분기2선택 {background-color:Gainsboro; color:black;}
+#분기3선택 {background-color:Gainsboro; color:black;}
+#분기4선택 {background-color:Gainsboro; color:black;}
+
+body {
+    margin:0;
+    background-color: rgb(27, 26, 26);
+    color: rgb(228, 226, 226);
+} h2 {
+    margin:0;
+} h3 {
+    margin:0;
+}
